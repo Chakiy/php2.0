@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="121bf767-6968-454f-bc0d-a1bb8a244987" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/oef1.3/assets/dropzone.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oef1.3/assets/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oef1.3/btw.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oef1.3/btw_form.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oef1.3/date1.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oef1.3/date2.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oef1.3/dropzone.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oef1.3/img/beer4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oef1.3/img/berlin.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oef1.3/img/london_2423609b.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oef1.3/img/paris.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oef1.3/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oef1.3/js/dropzone.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oef1.3/lib/access_control.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oef1.3/lib/autoload.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oef1.3/lib/connection_data.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oef1.3/lib/csv_export_functions.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oef1.3/lib/export_btw.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oef1.3/lib/form_elements.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oef1.3/lib/html_functions.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oef1.3/lib/login_check.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oef1.3/lib/pdo.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oef1.3/lib/routing.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oef1.3/lib/sanitize.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oef1.3/lib/save.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oef1.3/lib/security.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oef1.3/lib/strings.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oef1.3/lib/upload_dropzone.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oef1.3/lib/validate.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oef1.3/logout.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oef1.3/models/User.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oef1.3/models/city.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oef1.3/no_access.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oef1.3/profiel.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oef1.3/register.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oef1.3/services/MessageService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oef1.3/stad.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oef1.3/stad_form.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oef1.3/steden.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oef1.3/templates/btw_form.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oef1.3/templates/column.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oef1.3/templates/column_full.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oef1.3/templates/dropzone.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oef1.3/templates/head.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oef1.3/templates/jumbo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oef1.3/templates/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oef1.3/templates/navbar.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oef1.3/templates/profiel.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oef1.3/templates/register.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oef1.3/templates/stad_form.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oef1.1/lib/autoload.php" beforeDir="false" afterPath="$PROJECT_DIR$/oef1.1/lib/autoload.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oef1.1/lib/connection_data.php" beforeDir="false" afterPath="$PROJECT_DIR$/oef1.1/lib/connection_data.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oef1.1/lib/html_functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/oef1.1/lib/html_functions.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oef1.1/models/city.php" beforeDir="false" afterPath="$PROJECT_DIR$/oef1.1/models/city.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oef1.2/lib/autoload.php" beforeDir="false" afterPath="$PROJECT_DIR$/oef1.2/lib/autoload.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oef1.2/lib/connection_data.php" beforeDir="false" afterPath="$PROJECT_DIR$/oef1.2/lib/connection_data.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oef1.2/models/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/oef1.2/models/User.php" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1onFxRSWNWpyqDfUAZdvnGd3nWD" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="121bf767-6968-454f-bc0d-a1bb8a244987" name="Default Changelist" comment="" />
+      <created>1613914695389</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1613914695389</updated>
+      <workItem from="1613914697310" duration="698000" />
+      <workItem from="1613950303090" duration="1962000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="159" y="216" key="NewPhpClassDialog" timestamp="1613951330097">
+      <screen x="0" y="25" width="1440" height="807" />
+    </state>
+    <state x="159" y="216" key="NewPhpClassDialog/0.25.1440.807@0.25.1440.807" timestamp="1613951330097" />
+  </component>
+</project>

@@ -19,6 +19,9 @@ require_once $_SERVER['DOCUMENT_ROOT'] . $app_root . "/models/User.php";
 
 session_start();
 
+//services
+require_once "/services/MessageService.php";
+
 //access control
 require_once "access_control.php";
 
