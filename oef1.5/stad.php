@@ -14,7 +14,7 @@ PrintJumbo( $title = "Stad OO style");
         <?php
         if ( ! isset( $_GET['img_id']) ) die("Geen img_id opgegeven");
         if ( ! is_numeric( $_GET['img_id']) ) die("Ongeldig argument " . $_GET['img_id'] . " opgegeven");
-
+        $dbm = new  DBManager();
         $rows = $dbm->GetData( "select * from images where img_id=" . $_GET['img_id'] );
 
         if ( $rows )

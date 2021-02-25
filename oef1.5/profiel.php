@@ -15,7 +15,8 @@ PrintNavbar();
 
         <?php
             //get data
-            //$data = GetData( "select * from user where usr_id=" . $_SESSION['user']['usr_id'] );
+        //$data = GetData( "select * from user where usr_id=" . $_SESSION['user']['usr_id'] );
+        $dbm = new  DBManager();
             $data = $dbm->GetData( "select * from user where usr_id=" . $_SESSION['user']->getId() );
 
             /*

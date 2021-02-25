@@ -22,6 +22,7 @@ PrintNavbar();
     }
 
     //get data
+$dbm = new  DBManager();
     $data = $dbm-> GetData( "select * from eu_btw_codes" );
 
     $output ="";

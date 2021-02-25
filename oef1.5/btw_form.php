@@ -15,6 +15,7 @@ PrintNavbar();
 
         <?php
             //get data
+        $dbm = new  DBManager();
             $data = $dbm-> GetData( "select * from eu_btw_codes where eub_id=" . $_GET['eub_id'] );
 
             //get template

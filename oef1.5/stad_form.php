@@ -15,6 +15,7 @@ PrintJumbo( $title = "Bewerk afbeelding", $subtitle = "" );
             if ( ! is_numeric( $_GET['img_id']) ) die("Ongeldig argument " . $_GET['img_id'] . " opgegeven");
 
             //get data
+        $dbm = new  DBManager();
             $data = $dbm->GetData( "select * from images where img_id=" . $_GET['img_id'] );
             $row = $data[0]; //there's only 1 row in data
 

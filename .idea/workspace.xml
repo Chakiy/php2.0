@@ -2,61 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="121bf767-6968-454f-bc0d-a1bb8a244987" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/oef1.4/assets/dropzone.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oef1.4/assets/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oef1.4/btw.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oef1.4/btw_form.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oef1.4/date1.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oef1.4/date2.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oef1.4/dropzone.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oef1.4/img/beer4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oef1.4/img/berlin.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oef1.4/img/london_2423609b.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oef1.4/img/paris.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oef1.4/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oef1.4/js/dropzone.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oef1.4/lib/access_control.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oef1.4/lib/autoload.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oef1.4/lib/connection_data.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oef1.4/lib/csv_export_functions.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oef1.4/lib/export_btw.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oef1.4/lib/form_elements.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oef1.4/lib/html_functions.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oef1.4/lib/login_check.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oef1.4/lib/routing.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oef1.4/lib/sanitize.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oef1.4/lib/save.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oef1.4/lib/security.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oef1.4/lib/strings.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oef1.4/lib/upload_dropzone.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oef1.4/lib/validate.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oef1.4/logout.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oef1.4/models/City.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oef1.4/models/User.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oef1.4/no_access.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oef1.4/profiel.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oef1.4/register.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oef1.4/services/DBManager.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oef1.4/services/MessageService.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oef1.4/stad.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oef1.4/stad_form.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oef1.4/steden.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oef1.4/templates/btw_form.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oef1.4/templates/column.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oef1.4/templates/column_full.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oef1.4/templates/dropzone.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oef1.4/templates/head.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oef1.4/templates/jumbo.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oef1.4/templates/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oef1.4/templates/navbar.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oef1.4/templates/profiel.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oef1.4/templates/register.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oef1.4/templates/stad_form.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oef1.3/lib/autoload.php" beforeDir="false" afterPath="$PROJECT_DIR$/oef1.3/lib/autoload.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oef1.3/models/city.php" beforeDir="false" afterPath="$PROJECT_DIR$/oef1.3/models/City.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oef1.3/services/MessageService.php" beforeDir="false" afterPath="$PROJECT_DIR$/oef1.3/services/MessageService.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oef1.3/steden.php" beforeDir="false" afterPath="$PROJECT_DIR$/oef1.3/steden.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oef1.4/lib/login_check.php" beforeDir="false" afterPath="$PROJECT_DIR$/oef1.4/lib/login_check.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oef1.4/profiel.php" beforeDir="false" afterPath="$PROJECT_DIR$/oef1.4/profiel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oef1.4/steden.php" beforeDir="false" afterPath="$PROJECT_DIR$/oef1.4/steden.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oef1.5/btw.php" beforeDir="false" afterPath="$PROJECT_DIR$/oef1.5/btw.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oef1.5/btw_form.php" beforeDir="false" afterPath="$PROJECT_DIR$/oef1.5/btw_form.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oef1.5/lib/login_check.php" beforeDir="false" afterPath="$PROJECT_DIR$/oef1.5/lib/login_check.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oef1.5/profiel.php" beforeDir="false" afterPath="$PROJECT_DIR$/oef1.5/profiel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oef1.5/stad.php" beforeDir="false" afterPath="$PROJECT_DIR$/oef1.5/stad.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oef1.5/stad_form.php" beforeDir="false" afterPath="$PROJECT_DIR$/oef1.5/stad_form.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +33,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/oef1.4/services" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -90,8 +45,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/oef1.4/services" />
       <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/oef1.4/services" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -105,7 +60,7 @@
       <workItem from="1613914697310" duration="698000" />
       <workItem from="1613950303090" duration="2159000" />
       <workItem from="1613987319349" duration="1447000" />
-      <workItem from="1614173945423" duration="5038000" />
+      <workItem from="1614173945423" duration="5422000" />
     </task>
     <servers />
   </component>
