@@ -19,7 +19,7 @@ PrintNavbar();
     print '<div class="msgs">' . $ms->ShowInfos() . '</div>';
 
     //get data
-    $data = GetData( "select * from images" );
+    $data = $dbm->GetData( "select * from images" );
 
     //get template
     $template = file_get_contents("templates/column.html");
