@@ -15,12 +15,11 @@ PrintNavbar();
 
 <?php
     //toon messages als er zijn
-
-    print '<div class="msgs">' . $ms->ShowInfos() . '</div>';
+    $container->getMessageService()->ShowErrors();
+    $container->getMessageService()->ShowInfos();
 
     //get data
-   $dbm = new DBManager();
-    $data = $dbm->GetData( "select * from images" );
+    $data = $container->getDBManager()->GetData( "select * from images" );
 
     //get template
     $template = file_get_contents("templates/column.html");

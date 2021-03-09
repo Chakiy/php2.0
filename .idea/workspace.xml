@@ -3,15 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="121bf767-6968-454f-bc0d-a1bb8a244987" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oef1.4/lib/login_check.php" beforeDir="false" afterPath="$PROJECT_DIR$/oef1.4/lib/login_check.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oef1.4/profiel.php" beforeDir="false" afterPath="$PROJECT_DIR$/oef1.4/profiel.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/oef1.4/steden.php" beforeDir="false" afterPath="$PROJECT_DIR$/oef1.4/steden.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oef1.5/btw.php" beforeDir="false" afterPath="$PROJECT_DIR$/oef1.5/btw.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oef1.5/btw_form.php" beforeDir="false" afterPath="$PROJECT_DIR$/oef1.5/btw_form.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oef1.5/lib/login_check.php" beforeDir="false" afterPath="$PROJECT_DIR$/oef1.5/lib/login_check.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oef1.5/profiel.php" beforeDir="false" afterPath="$PROJECT_DIR$/oef1.5/profiel.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oef1.5/stad.php" beforeDir="false" afterPath="$PROJECT_DIR$/oef1.5/stad.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oef1.5/stad_form.php" beforeDir="false" afterPath="$PROJECT_DIR$/oef1.5/stad_form.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +52,8 @@
       <workItem from="1613914697310" duration="698000" />
       <workItem from="1613950303090" duration="2159000" />
       <workItem from="1613987319349" duration="1447000" />
-      <workItem from="1614173945423" duration="5422000" />
+      <workItem from="1614173945423" duration="6057000" />
+      <workItem from="1614715461100" duration="468000" />
     </task>
     <servers />
   </component>
