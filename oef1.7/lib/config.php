@@ -1,3 +1,10 @@
 <?php
 $logfile = $_SERVER['DOCUMENT_ROOT'] . $app_root . "/log/log.txt";
-$dbconfig = [ "server" => "localhost", "user" => "root", "password" => "steven123", "database" => "steden" ];
+$debuglogfile = $_SERVER['DOCUMENT_ROOT'] . $app_root . "/log/debug.txt";
+$dbconfig = [ "server" => "localhost", "user" => "root", "password" => "Chak1234", "database" => "steden" ];
+
+
+//$servername = "localhost";
+//$username = "root";
+//$password = "Chak1234";
+//$dbname = "steden";

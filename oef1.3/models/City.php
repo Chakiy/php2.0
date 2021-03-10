@@ -1,7 +1,7 @@
 <?php
 
 
-class City
+class city
 {
     private $id;
     private $filename;

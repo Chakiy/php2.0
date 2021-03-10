@@ -33,7 +33,7 @@ class User
     }
 
     /**
-     * @param mixed
+     * @param mixed $voornaam
      */
     public function setVoornaam($voornaam): void
     {

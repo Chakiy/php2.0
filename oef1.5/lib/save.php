@@ -9,8 +9,9 @@ SaveFormData();
 
 function SaveFormData()
 {
-
     global $app_root;
+    global $ms;
+    global $dbm;
 
     if ( $_SERVER['REQUEST_METHOD'] == "POST" )
     {
@@ -57,7 +58,7 @@ function SaveFormData()
         }
 
         //terugkeren naar afzender als er een fout is
-        if ( isset($_SESSION['errors']) AND count($_SESSION['errors']) > 0 )
+        if ( $ms->CountNewErrors() > 0 OR $ms->CountNewInputErrors() )
         {
             $_SESSION['OLD_POST'] = $_POST;
             header( "Location: " . $sending_form_uri ); exit();
@@ -91,7 +92,7 @@ function SaveFormData()
                 $value = password_hash( $value, PASSWORD_BCRYPT );
                 $keys_values[] = " $field = '$value' " ;
 
-                $_SESSION['msgs'][] = "Bedankt voor uw registratie";
+                $ms->AddMessage("info", "Bedankt voor uw registratie");
             }
             else //all other data-fields
             {
@@ -109,7 +110,7 @@ function SaveFormData()
         $sql .= $where;
 
         //run SQL
-        $result = ExecuteSQL( $sql );
+        $result = $dbm->ExecuteSQL( $sql );
 
         //output if not redirected
         print $sql ;

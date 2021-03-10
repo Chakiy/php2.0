@@ -14,12 +14,10 @@ PrintNavbar();
 <div class="container">
     <div class="row">
 
-<?php
+    <?php
     //toon messages als er zijn
-    foreach ( $msgs as $msg )
-    {
-        print '<div class="msgs">' . $msg . '</div>';
-    }
+    $ms->ShowErrors();
+    $ms->ShowInfos();
 
     //get data
     $data = GetData( "select * from eu_btw_codes" );

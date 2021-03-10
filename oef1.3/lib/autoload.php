@@ -13,43 +13,20 @@ require_once "security.php";
 require_once "routing.php";
 require_once "strings.php";
 
+//models
+require_once $_SERVER['DOCUMENT_ROOT'] . $app_root . "/models/city.php";
+require_once $_SERVER['DOCUMENT_ROOT'] . $app_root . "/models/User.php";
+
 //services
 require_once $_SERVER['DOCUMENT_ROOT'] . $app_root . "/services/MessageService.php";
 
-//models
-require_once $_SERVER['DOCUMENT_ROOT'] . $app_root . "/models/City.php";
-require_once $_SERVER['DOCUMENT_ROOT'] . $app_root . "/models/User.php";
-
 session_start();
-
-
 
 //access control
 require_once "access_control.php";
 
-var_dump($_SESSION);
+//initialze MessageService
 $ms = new MessageService();
-
-//initialize $errors array
-//$errors = [];
-//
-//if ( key_exists( 'errors', $_SESSION ) AND is_array( $_SESSION['errors']) )
-//{
-//    $errors = $_SESSION['errors'];
-//    $_SESSION['errors'] = [];
-//}
-//
-////initialize $msgs array
-//$msgs = [];
-//
-//if ( key_exists( 'msgs', $_SESSION ) AND is_array( $_SESSION['msgs']) )
-//{
-//    $msgs = $_SESSION['msgs'];
-//    $_SESSION['msgs'] = [];
-//}
-
-
-
 
 //initialize $old_post
 $old_post = [];

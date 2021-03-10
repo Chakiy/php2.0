@@ -9,11 +9,8 @@ $user = LoginCheck();
 
 if ( $user )
 {
-    $user = new User();
-
     $_SESSION['user'] = $user;
-    //$_SESSION['msgs'][] = "Welkom, " . $_SESSION['user']['usr_voornaam'];
-    $_SESSION['msgs'][] = "Welkom, " . $_SESSION['user']->getVoornaam();
+    $ms->AddMessage("infos", "Welkom, " . $_SESSION['user']->getVoornaam());
     GoHome();
 }
 else
@@ -24,6 +21,8 @@ else
 
 function LoginCheck()
 {
+    global $ms;
+
     if ( $_SERVER['REQUEST_METHOD'] == "POST" )
     {
         //controle CSRF token
@@ -44,16 +43,16 @@ function LoginCheck()
         {
             if ( ! key_exists("usr_email", $_POST ) OR strlen($_POST['usr_email']) < 5 )
             {
-                $_SESSION['errors']['usr_password'] = "Het wachtwoord is niet correct ingevuld";
+                $ms->AddMessage("input_errors", "Het wachtwoord is niet correct ingevuld", "usr_password");
             }
             if ( ! key_exists("usr_password", $_POST ) OR strlen($_POST['usr_password']) < 8 )
             {
-                $_SESSION['errors']['usr_password'] = "Het wachtwoord is niet correct ingevuld";
+                $ms->AddMessage("input_errors", "Het wachtwoord is niet correct ingevuld", "usr_password");
             }
         }
 
         //terugkeren naar afzender als er een fout is
-        if ( key_exists("errors" , $_SESSION ) AND count($_SESSION['errors']) > 0 )
+        if ( $ms->CountInputErrors() > 0 OR $ms->CountErrors() > 0 )
         {
             $_SESSION['OLD_POST'] = $_POST;
             header( "Location: " . $sending_form_uri ); exit();

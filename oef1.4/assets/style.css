@@ -28,6 +28,18 @@ div.msgs {
     border: 1px solid green;
 }
 
+/* foutmeldingen */
+div.error {
+    display: block;
+    width: 100%;
+    background: red;
+    color: white;
+    padding: 10px 15px;
+    margin-bottom: 2rem;
+    font-size: 20px;
+    border: 1px solid #80003e;
+}
+
 /* opgeladen bestanden */
 div.imgdiv {
     float: left;

@@ -15,8 +15,7 @@ PrintNavbar();
 
         <?php
             //get data
-        $dbm = new  DBManager();
-            $data = $dbm-> GetData( "select * from eu_btw_codes where eub_id=" . $_GET['eub_id'] );
+            $data = $dbm->GetData( "select * from eu_btw_codes where eub_id=" . $_GET['eub_id'] );
 
             //get template
             $output = file_get_contents("templates/btw_form.html");
@@ -27,7 +26,7 @@ PrintNavbar();
             //merge
             $output = MergeViewWithData( $output, $data );
             $output = MergeViewWithExtraElements( $output, $extra_elements );
-            $output = MergeViewWithErrors( $output, $errors );
+            $output = MergeViewWithErrors( $output, $ms->GetInputErrors() );
             $output = RemoveEmptyErrorTags( $output, $data );
 
             print $output;

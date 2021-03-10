@@ -15,8 +15,8 @@ PrintNavbar();
 
 <?php
     //toon messages als er zijn
-
-    print '<div class="msgs">' . $ms->ShowInfos() . '</div>';
+    $ms->ShowErrors();
+    $ms->ShowInfos();
 
     //get data
     $data = GetData( "select * from images" );

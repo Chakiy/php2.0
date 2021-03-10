@@ -33,9 +33,9 @@ class User
     }
 
     /**
-     * @param mixed
+     * @param mixed $voornaam
      */
-    public function setVoornaam($voornaam): void
+    public function setVoornaam(string $voornaam): void
     {
         $this->voornaam = $voornaam;
     }

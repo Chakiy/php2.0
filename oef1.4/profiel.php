@@ -15,8 +15,6 @@ PrintNavbar();
 
         <?php
             //get data
-        //$data = GetData( "select * from user where usr_id=" . $_SESSION['user']['usr_id'] );
-        $dbm = new  DBManager();
             $data = $dbm->GetData( "select * from user where usr_id=" . $_SESSION['user']->getId() );
 
             /*
@@ -40,7 +38,7 @@ PrintNavbar();
             //merge
             $output = MergeViewWithData( $output, $data );
             $output = MergeViewWithExtraElements( $output, $extra_elements );
-            $output = MergeViewWithErrors( $output, $errors );
+            $output = MergeViewWithErrors( $output, $ms->GetInputErrors() );
             $output = RemoveEmptyErrorTags( $output, $data );
 
             print $output;
