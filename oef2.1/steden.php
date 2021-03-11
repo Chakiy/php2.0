@@ -47,7 +47,7 @@ $aaa = [];
 foreach ($data as $row => $value ) {
 
 
-         $url = 'http://api.openweathermap.org/data/2.5/weather?q=' . $value['img_weather_location'] . '&APPID=e97bd757a9b4c619b67d39814366db46';
+         $url = 'http://api.openweathermap.org/data/2.5/weather?q=' . $value['img_weather_location'] . '&lang=nl&APPID=e97bd757a9b4c619b67d39814366db46';
          $restClient = new RESTclient($authentication = null);
          $restClient->CurlInit($url);
          $response = $restClient->CurlExec();
@@ -55,6 +55,7 @@ foreach ($data as $row => $value ) {
         $value['weather_temp'] = round(json_decode($response)->main->temp - 273.15);
         $value['weather_description'] = json_decode($response)->weather[0]->description;
         $value['weather_humidity'] = json_decode($response)->main->humidity;
+        $value['weather_icon'] = json_decode($response)->weather[0]->icon;
 
 
         $aaa[$row] = $value;
