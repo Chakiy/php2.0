@@ -3,10 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="121bf767-6968-454f-bc0d-a1bb8a244987" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oef2.1/log/log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/oef2.1/log/log.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/oef2.1/steden.php" beforeDir="false" afterPath="$PROJECT_DIR$/oef2.1/steden.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oef2.1/templates/column.html" beforeDir="false" afterPath="$PROJECT_DIR$/oef2.1/templates/column.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oef2.1/templates/column_full.html" beforeDir="false" afterPath="$PROJECT_DIR$/oef2.1/templates/column_full.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +58,7 @@
       <workItem from="1614715461100" duration="468000" />
       <workItem from="1615280300856" duration="2658000" />
       <workItem from="1615389833057" duration="167000" />
-      <workItem from="1615390049190" duration="14411000" />
+      <workItem from="1615390049190" duration="15702000" />
     </task>
     <servers />
   </component>

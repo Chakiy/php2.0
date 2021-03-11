@@ -42,7 +42,7 @@ PrintNavbar();
 //    print $data[0]['weather_description'];
 //    print_r($data);
 
-$aaa = [];
+$new_data = [];
 
 foreach ($data as $row => $value ) {
 
@@ -55,10 +55,10 @@ foreach ($data as $row => $value ) {
         $value['weather_temp'] = round(json_decode($response)->main->temp - 273.15);
         $value['weather_description'] = json_decode($response)->weather[0]->description;
         $value['weather_humidity'] = json_decode($response)->main->humidity;
-        $value['weather_icon'] = json_decode($response)->weather[0]->icon;
 
 
-        $aaa[$row] = $value;
+
+    $new_data[$row] = $value;
 //        print_r($value);
 //        print_r($aaa);
 
@@ -74,39 +74,22 @@ foreach ($data as $row => $value ) {
 //        echo"<br>";
 
     }
-    print_r($data);
-
-    echo "<hr>";
-    echo "<br>";
-//    print_r($value);
-    print_r($aaa);
-
-
-
-//        $url = 'api.openweathermap.org/data/2.5/weather?q='. $row['img_weather_location'] .'&lang=nl&units=metric&APPID=e97bd757a9b4c619b67d39814366db4';
-//        $restClient = new RESTclient( $authentication = null );
-//        $restClient->CurlInit($url);
-//        $response = json_decode($restClient->CurlExec());
-//
-//        $row['weather_description'] = $response->weather[0]->description;
-//        $row['weather_temp'] = round($response->main->temp);
-//        $row['weather_humidity'] = $response->main->humidity;
-//        print('<br>--------------------------<br>');
-////        var_dump($row);
-//        print('<br>--------------------------<br>');
-//
-//    }
 //    print_r($data);
+//
+//    echo "<hr>";
+//    echo "<br>";
+////    print_r($value);
+//    print_r($aaa);
 
-//    print_r($row);
 
-//}
+
+
 
     //get template
     $template = file_get_contents("templates/column.html");
 
     //merge
-    $output .= MergeViewWithData( $template, $aaa );
+    $output .= MergeViewWithData( $template, $new_data );
     print $output;
 //$land = $container->getDBManager()->GetData( "select img_weather_location from images" );
 
